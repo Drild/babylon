@@ -5,11 +5,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: 'hsl(0 0% 4%)',
-        foreground: 'hsl(0 0% 98%)',
-        'muted-foreground': 'hsl(0 0% 63%)',
-        primary: 'hsl(145 30% 65%)',
-        'primary-dark': 'hsl(145 30% 50%)',
+        background: 'hsl(var(--background) / <alpha-value>)',
+        foreground: 'hsl(var(--foreground) / <alpha-value>)',
+        'muted-foreground': 'hsl(var(--muted-foreground) / <alpha-value>)',
+        primary: 'hsl(var(--primary) / <alpha-value>)',
+        'primary-dark': 'hsl(var(--primary-dark) / <alpha-value>)',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
